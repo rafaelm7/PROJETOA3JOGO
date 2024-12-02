@@ -1,0 +1,8 @@
+export const CONFIDENCE_THRESHOLDS = {
+  PATTERN: 0.85,
+  FREQUENCY: 0.75,
+  PREDICTION: 0.70,
+  ALTERNATING: 0.90
+} as const;
+
+export const SCORE_DIFFERENCE_THRESHOLD = 5;
